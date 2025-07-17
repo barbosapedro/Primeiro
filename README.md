@@ -4,7 +4,7 @@
 
 Simple Idle Incremental Game
 
-Work In Progress
+Work In Progress (check Wiki)
 
 
 
