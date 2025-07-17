@@ -5,11 +5,11 @@
 Simple Idle Incremental Game
 
 Sprints:
--
+- 0
 
-\-
+- 1
 
-\-
+- 2
 
 
 
@@ -22,9 +22,9 @@ Sprint 0:
 
 
 
-| Mecânica          | Descrição                                                              | “Done quando”                       |
+| Mecânica          | Descrição                                                                  | “Done quando”                       |
 
-| ----------------- | ---------------------------------------------------------------------- | ----------------------------------- |
+| ----------------- | ----------------------------------------------------------------------     | ----------------------------------- |
 
 | \*\*Tap → +1 Gold\*\* | Clique no botão central incrementa contador                            | Gold sobe visualmente a cada clique |
 
@@ -44,16 +44,16 @@ Backlog: (Estimativa 1 corresponde a 30minutos)
 
 
 
-| Ordem     | Tarefa                                                                 | Responsável | Est.           |
+| Ordem     | Tarefa                                                                     | Responsável | Est.           |
 
-| --------- | ---------------------------------------------------------------------- | ----------- | -------------- |
+| --------- | ----------------------------------------------------------------------     | ----------- | -------------- |
 
-| 1         | Criar novo projeto 2D URP                                              | eu          | 1              |
+| 1         | Criar novo projeto 2D URP                                                  | eu          | 1              |
 
-| 2         | Montar MainCanvas c/ quatro TextMeshProUGUI + 2 Buttons                | eu          | 2              |
+| 2         | Montar MainCanvas c/ quatro TextMeshProUGUI + 2 Buttons                    | eu          | 2              |
 
 | 3         | \*\*GameManager\*\* (singleton) – referencia UI e despacha eventos         | eu          | 2              |
-
+  
 | 4         | \*\*ClickManager\*\* – OnClick → AddGold(int)                              | eu          | 1              |
 
 | 5         | \*\*UpgradeManager\*\* – custo, nível, AddGoldPerSec                       | eu          | 3              |
@@ -62,9 +62,9 @@ Backlog: (Estimativa 1 corresponde a 30minutos)
 
 | 7         | \*\*Saver\*\* – Serialize/Deserialize JSON a cada 30 s e OnApplicationQuit | eu          | 3              |
 
-| 8         | Loop de play-test + bug-fix                                            | eu          | 2              |
+| 8         | Loop de play-test + bug-fix                                                | eu          | 2              |
 
-| \*\*Total\*\* |                                                                        |             | \*\*15 (\\~6 h)\*\* |
+| Total     |                                                                            | eu          | 15             |
 
 
 
