@@ -61,8 +61,8 @@ public class GameManager : MonoBehaviour
     //Reflete os valores na Interface e formata os numeros 0-inteiro 0.0-decimal (atualiza o texto)
     void UpdateUI()
     {
-        goldTxt.text = gold.ToString("0");
-        gpsTxt.text = goldPerSec.ToString("0.0") + " /s";
+        goldTxt.text = "Gold: " + gold.ToString("0");
+        gpsTxt.text = "Gold Por Segundo: " + goldPerSec.ToString("0.0") + " /s";
     }
 
     private void OnApplicationQuit()
